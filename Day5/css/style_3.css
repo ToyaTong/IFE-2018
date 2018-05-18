@@ -1,0 +1,57 @@
+.jumbotron{
+	width: 1000px;
+	
+	position: absolute;
+	top: 10px;
+	left: 50%;
+	transform: translate(-50%);
+	border:1px solid #858585;
+}
+
+.someifo{
+	font-weight: 600;
+}
+.side-left{
+	color: #FFFFFF;
+	
+	background-color: #858585;
+	height: 80px;
+	width: 1000px;
+	float: left;
+
+}
+h1{
+	background-color: #858585;
+	margin:20px 0 0 30px;
+}
+.myifo{
+	clear: both;
+	
+	height: 150px;
+	
+}
+.mytitle{
+	background-color: #D6D6D6;
+	text-align: center;
+	width: 150px;
+	height: 150px;
+	border:1px solid #FFFFFF;
+	float: left;
+	line-height: 126px;
+
+
+}
+
+
+.myarticle{
+	border-top: 1px solid #D6D6D6;
+	border-bottom:  1px solid #D6D6D6;
+	width: 848px;
+	height: 150px;
+	float: right;
+	line-height: 10px;
+
+}
+p,h3{
+	margin:20px 0 0 20px;
+}
