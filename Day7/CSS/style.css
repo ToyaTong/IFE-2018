@@ -1,0 +1,140 @@
+	*{
+			margin:0 0;
+		}
+		.banner,header,nav,article,footer{
+			width: 100%;
+			
+		}
+		header{
+			height: 60px;
+			background-color:#333333;
+		}
+		.head-box{
+			width: 960px;
+			height: 100%;
+			margin:0 auto;
+	
+		}
+		.logo{
+			color: white;
+			font-size: 25px;
+			float: left;
+			margin:15px 0 0 0;
+
+		}
+		.head-nav{
+			float: right;
+
+		}
+		.head-nav a{
+			font-size: 15px;
+			color: white;
+			margin:5px 0 0 2px;
+		}
+		
+		.head-nav a:hover{
+			color: yellow;
+		}
+		.banner{
+			height: 200px;
+			background-color: #66BB33;
+			position: relative;
+		}
+		.banner-num{
+			width:120px;
+			height: 40px;
+			position: absolute;
+			right:250px;
+			bottom: 10px;
+		}
+		.banner-num p{
+			float: left;
+			border:1px solid #000000;
+			width: 20px;
+			height: 22px;
+			margin:13px 0 0 5px;
+			text-align: center;
+			line-height: 22px;
+			background-color:rgba(255,255,255,0.3);
+		}
+		.banner-num .num{
+			width: 20px;
+			height: 30px;
+			margin-top:5px;
+			line-height: 30px;
+			background-color:rgba(255,255,255,0.6);
+		}
+		nav{
+			height: 50px;
+			border-bottom:1px solid #DDDDDD;
+		}
+		.main-nav{
+			margin:0 auto;
+			width:960px;
+			height: 100%;
+			position: relative;
+		}
+		.main-nav div{
+			position: absolute;
+			width: 70px;
+			height: 35px;
+			border:2px solid #DDDDDD;
+			border-radius: 15px 15px 0 0;
+			text-align: center;
+			line-height: 40px;
+			background-color: #EEEEEE;
+		}
+		.main-nav .home{
+			bottom: -1px;
+			left:2px;
+			background-color: #FFFFFF;
+			border-bottom: 0px;
+		}
+		.main-nav .profile{
+			bottom: -1px;
+			left:74px;
+		}
+		.main-nav .about{
+			bottom: -1px;
+			left:145px;
+		}
+
+		article{
+			height: 750px;	
+		}
+		.main{
+			width: 960px;
+			height: 100%;
+			margin: 0 auto;
+		
+			
+		}
+		.row1,.row2,.row3{
+			display: flex;
+			min-height: 230px;
+			justify-content: space-between;
+			margin-top: 10px;
+			
+			
+		}
+		.content{
+			margin:0 5px 0 5px;
+			border:2px solid #DDDDDD;
+			flex-grow:1;
+			text-align: center;
+			line-height: 230px;
+
+		}
+		.content2{
+			flex-grow: 1.5;
+		}
+		footer{
+			height: 80px;
+			background-color:#666666;
+		}
+		footer p{
+			text-align: center;
+			padding-top: 10px;
+			color: #FFFFFF;
+			font-size: 14px;
+		}
