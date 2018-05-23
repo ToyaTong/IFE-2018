@@ -4,7 +4,7 @@
 }
 @font-face {
     font-family: 'Montserrat ExtraLight'; 
-    src: url('../font/Montserrat-ExtraLight.otf');  
+    src: url('../font/Montserrat-ExtraLight.otf');  /*添加字体*/
 }
 body{
     background-color: #EEEEEE;
