@@ -16,10 +16,6 @@ html,body{
     height:100%;
     display: flex;
 }
-article{
-    width: 100%;
-    border:1px solid pink;
-}
 .sidebar{
     width: 102px;
     background-color: #1D2531;
@@ -40,7 +36,6 @@ article{
 .Item-bottom2{
     right: 20%;
 }
-
 
 nav{
     font-family: 'ProximaNova-Semibold';
@@ -117,9 +112,15 @@ nav h1{
     float: right;
 }
 
+article{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
 .nav-bottom{
     position: absolute;
-    bottom: 40px;
+    bottom: 30px;
     left: 50%;
     margin-left: -100px;
     width: 200px;
@@ -143,4 +144,58 @@ nav h1{
     border-radius:5px;
     background: linear-gradient(to right,#7F5CE6,#9C8EE3);
     float: left;
+}
+.top-bar{
+    height: 82px;
+    width: 100%;
+    border-bottom: 1px solid #b5b5b5;
+    position: relative;
+}
+.login-img{
+    float: right;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    margin-top: -30px;
+}
+.login-img img{
+    margin-top: 5px;
+    margin-right: 28px;
+}
+.login-name{
+    float: right;
+    background-image: url('../image/dropdown.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    height: 100%;
+}
+.login-name p{
+    margin-right: 42px;
+    font-size: 16px;
+}
+.login-name .login-name1{
+    color:#2399f1;
+    margin-top: 8px;
+}
+.login-name .login-name2{
+    color: #b5b5b5;
+}
+.side-title{
+    font-family: 'ProximaNova-Regular';
+    line-height: 82px;
+    font-size: 24px;
+    color: #354052;
+    margin-left: 30px;
+}
+section{
+    width: 100%;
+    height: 100%;
+    border:1px solid blue;
+}
+.section-left{
+    width: 400px;
+    height: 100%;
+    flex-shrink: 0;
+    border:1px solid red;
 }
