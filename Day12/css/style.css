@@ -1,4 +1,146 @@
 @font-face{
-    font-family: 'Proxima Nova Rg';
+    font-family: 'ProximaNova-Regular';
     src: url('../font/ProximaNova-Regular.otf');
+    font-family: 'ProximaNova-Semibold';
+    src: url('../font/ProximaNova-Semibold.otf');
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html,body{
+    height: 100%;
+} 
+.container{
+    width: 100%;
+    height:100%;
+    display: flex;
+}
+article{
+    width: 100%;
+    border:1px solid pink;
+}
+.sidebar{
+    width: 102px;
+    background-color: #1D2531;
+    position: relative;
+}
+.Item-logo a{
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+}
+.Item-bottom{
+    position: absolute;
+    bottom: 15px;
+}
+.Item-bottom1{
+    left: 20%;  
+}
+.Item-bottom2{
+    right: 20%;
+}
+
+
+nav{
+    font-family: 'ProximaNova-Semibold';
+    flex:0 0 253px;
+    background-color: #222C3C;
+    position: relative;
+}
+.menu,.product,.dashboard{
+    color: rgba(255,255,255,0.2);
+    border-bottom:1px solid rgba(255,255,255,0.05);
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.dashboard{
+    border:none;
+}
+nav h1{
+    font-size: 12px; 
+    margin-bottom: 15px;   
+}
+.set{
+    float: right;
+}
+.menu-content{
+    font-size: 14px;
+    display: block;
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+.product p{
+    background-repeat: no-repeat;
+    background-position: left center;
+    margin-bottom: 15px;
+}
+.product a{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    margin-left: 30px;
+}
+.menu-Icon1{
+    background-image: url("../image/Book of Wisdom.png");
+}
+.menu-Icon2{
+    background-image: url("../image/Video Camera.png");
+}
+.menu-Icon3{
+    background-image: url("../image/Painting.png");
+}
+.menu-Icon4{
+    background-image: url("../image/Chart.png");
+}
+.num{
+    background-color: #2DA0F8;
+    color: white;
+    text-align:center;
+    line-height: 20px;
+    border-radius: 25px;
+    width: 30px;
+    height:20px;
+    float: right;   
+}
+.warn{
+    background-color: #F15134;
+    text-align:center;
+    color: white;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 50%;
+    float: right;
+}
+
+.nav-bottom{
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    margin-left: -100px;
+    width: 200px;
+    height: 30px;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.nav-num{
+    float: right;
+}
+.nav-bottom div{
+    width: 200px;
+    height: 5px;
+    border-radius:5px;
+    background-color: #2D3848;
+    margin-top: 16px;
+}
+.nav-color{
+    width: 40px;
+    height: 5px;
+    border-radius:5px;
+    background: linear-gradient(to right,#7F5CE6,#9C8EE3);
+    float: left;
 }
