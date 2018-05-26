@@ -231,6 +231,9 @@ section{
     max-height: 132px;
     overflow: hidden;
 }
+.chat-now{
+    border-left:4px solid #2399f1;
+}
 .chat7{
     flex-grow: 1;
     max-height: 128px;
@@ -254,6 +257,14 @@ section{
 }
 .chat1 span{
     margin-top: 5px;
+}
+.chat1 div span{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #2399f1;
+    margin-right: 10px;
 }
 .chat1 .name1{
     font-size: 16px;
@@ -374,12 +385,12 @@ section{
     color:#585d68;
 }
 .today{
-    max-height:313px;
+    max-height:380px;
     flex-grow: 1;
 }
 .bessie{
     width: 100%;
-    margin-top: 22px;
+    margin-top: 27px;
     margin-bottom: 20px;
     height: 90px;
 }
@@ -394,16 +405,61 @@ section{
 .bessie img,.jackson img{
     margin-left: 3.1%;
 }
-.tuesday{
-    max-height: 369px;
+.line{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+}
+.line-left,.line-right{
+    flex: 1;
     border-top: 1px solid #E6E9EC;
+}
+.line-text{
+    text-align: center;
+    margin:0 20px;
+    font-size: 16px;
+    color: #B6BFCB;
+}
+.tuesday{
+    max-height: 420px;
     flex-grow: 1;
 }
 .tuesday .jackson{
     height: 120px;
 }
+.photo{
+    display: inline-block;
+    width: 156px;
+    height: 100px;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+.photo .amplify{
+    position: absolute;
+    width: 156px;
+    height: 100px;
+    border-radius: 5px;
+    z-index: 1;
+    display: none;
+    background-color: rgba(0,0,0,0.6);
+}
+.photo img{
+    position: absolute;
+    z-index: 0;
+}
+.photo:hover .amplify{
+    display: block;
+}
+.amplify a{
+    display: block;
+    width: 156px;
+    height: 100px;
+    background: url('../image/Open picture icon.png') no-repeat center;
+}
 .photo1{
-    margin-left:110px;
+    margin-left:10%;
     margin-right: 10px;
 }
 
@@ -411,13 +467,21 @@ section{
 .new{
     width:100%;
     min-height: 240px;
-    border-top: 1px solid #a7d6f9;
     flex-grow: 0;
     flex-shrink: 0;
 }
+.new .line-left,.new .line-right{
+    border-top: 1px solid #a7d6f9;
+}
+.new .line-text{
+    color: #73B7F5;
+}
 .new input{
     width:91%;
-    height:50px;
+    height:54px;
     border:1px solid #E6E9EC;
     margin-left:3.1%;
+    background: url('../image/Add a file icon.jpg') no-repeat left;
+    padding-left: 70px;
 }
+
