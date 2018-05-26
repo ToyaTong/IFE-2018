@@ -476,6 +476,9 @@ section{
 .new .line-text{
     color: #73B7F5;
 }
+.new .bessie{
+    margin-bottom: 0px;
+}
 .new input{
     width:85%;
     height:54px;
