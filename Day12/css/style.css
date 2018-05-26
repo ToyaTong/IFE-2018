@@ -385,7 +385,7 @@ section{
     color:#585d68;
 }
 .today{
-    max-height:380px;
+    max-height:320px;
     flex-grow: 1;
 }
 .bessie{
@@ -422,7 +422,7 @@ section{
     color: #B6BFCB;
 }
 .tuesday{
-    max-height: 420px;
+    max-height: 380px;
     flex-grow: 1;
 }
 .tuesday .jackson{
@@ -477,7 +477,7 @@ section{
     color: #73B7F5;
 }
 .new input{
-    width:91%;
+    width:85%;
     height:54px;
     border:1px solid #E6E9EC;
     margin-left:3.1%;
